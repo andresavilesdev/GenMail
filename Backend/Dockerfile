@@ -16,4 +16,4 @@ COPY ./src /root/src
 
 RUN ./mvnw clean install -DskipTests
 
-ENTRYPOINT ["java","-jar","/root/target/<.jar>"]
+ENTRYPOINT ["java","-jar","/root/target/GenMail-0.0.1-SNAPSHOT.jar"]
