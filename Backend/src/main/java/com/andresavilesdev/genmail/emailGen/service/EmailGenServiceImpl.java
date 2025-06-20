@@ -11,7 +11,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 import java.util.Map;
 
 @Service
-public class EmailGenServiceImpl implements IEmailGenService{
+public class  EmailGenServiceImpl implements IEmailGenService{
 
     @Value("${gemini.api.url}")
     private String geminiApiUrl;
@@ -45,6 +45,7 @@ public class EmailGenServiceImpl implements IEmailGenService{
         String response = webClient.post()
                 .uri(geminiApiUrl + geminiApiKey)
                 .header(HttpHeaders.CONTENT_TYPE, "application/json")
+                .bodyValue(requestBody)
                 .retrieve()
                 .bodyToMono(String.class)
                 .block();
