@@ -1,0 +1,7 @@
+D:\Programming\Projects\GenMail\Backend\src\main\java\com\andresavilesdev\genmail\configuration\AppConfig.java
+D:\Programming\Projects\GenMail\Backend\src\main\java\com\andresavilesdev\genmail\emailGen\controller\EmailGenController.java
+D:\Programming\Projects\GenMail\Backend\src\main\java\com\andresavilesdev\genmail\emailGen\dto\EmailGenRequest.java
+D:\Programming\Projects\GenMail\Backend\src\main\java\com\andresavilesdev\genmail\emailGen\dto\EmailGenResponse.java
+D:\Programming\Projects\GenMail\Backend\src\main\java\com\andresavilesdev\genmail\emailGen\service\EmailGenServiceImpl.java
+D:\Programming\Projects\GenMail\Backend\src\main\java\com\andresavilesdev\genmail\emailGen\service\IEmailGenService.java
+D:\Programming\Projects\GenMail\Backend\src\main\java\com\andresavilesdev\genmail\GenMailApplication.java

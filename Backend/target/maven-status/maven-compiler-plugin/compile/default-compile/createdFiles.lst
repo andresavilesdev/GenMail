@@ -1,0 +1,8 @@
+com\andresavilesdev\genmail\configuration\AppConfig.class
+com\andresavilesdev\genmail\GenMailApplication.class
+com\andresavilesdev\genmail\emailGen\service\IEmailGenService.class
+com\andresavilesdev\genmail\emailGen\dto\EmailGenResponse.class
+com\andresavilesdev\genmail\emailGen\controller\EmailGenController.class
+com\andresavilesdev\genmail\emailGen\dto\EmailGenRequest.class
+com\andresavilesdev\genmail\emailGen\service\EmailGenServiceImpl.class
+com\andresavilesdev\genmail\emailGen\dto\EmailGenRequest$EmailGenRequestBuilder.class
