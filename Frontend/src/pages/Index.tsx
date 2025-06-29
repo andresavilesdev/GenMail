@@ -39,8 +39,6 @@ export default function Index() {
         emailContent,
         tone: selectedTone
       }
-
-      console.log("Request body:", request)
       
       const response = await fetch("https://api.genmail.lemonsalve.tech/api/email/generate", {
         method: "POST",
@@ -49,8 +47,6 @@ export default function Index() {
         },
         body: JSON.stringify(request)
       })
-
-      console.log("Status:", response.status)
       
       if (!response.ok) {
         throw new Error("Error al generar respuesta")
